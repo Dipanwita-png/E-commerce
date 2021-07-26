@@ -35,7 +35,7 @@ if ($num != 0) {
     header("location: signup.php?m2=" . $m . "& name=$name & city=$city & address=$address");exit;
   } else {
     //use insert query and store the data in the database.
-    $user_registration_query = "INSERT INTO ecommerce.users(name, email, password, contact, city, address) VALUES ('" . $name . "','" . $email . "','" . $pass . "','" . $contact . "','" . $city . "','" . $address . "')";
+    $user_registration_query = "INSERT INTO users(name, email, password, contact, city, address) VALUES ('" . $name . "','" . $email . "','" . $pass . "','" . $contact . "','" . $city . "','" . $address . "')";
     $user_registration_submit = mysqli_query($con, $user_registration_query) or die(mysqli_error($con));
     $_SESSION['email'] = $email;
     $_SESSION['id'] = mysqli_insert_id($con); 
