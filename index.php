@@ -196,7 +196,7 @@ require "includes/common.php";
                             </div>
                             <div class="panel-body">
                                 <div class="thumbnail">
-                                <img src="img/samsung_S8300.jpg" alt="Samsung">
+                                <img src="img/Samsung_S8300.jpg" alt="Samsung">
                                 </div>
                             </div>
                             <div class="panel-footer">
