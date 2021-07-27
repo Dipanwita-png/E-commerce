@@ -13,7 +13,7 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-                <title>Cart | Life Style Store</title>
+                <title>Cart | E- Store</title>
     </head>
     <body>
         <div class="container-fluid" id="content">
